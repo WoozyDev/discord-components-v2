@@ -1,7 +1,7 @@
 # Discord Components v2
 Since March of 2025, Discord has added a new way of using components in messages!<br>
 This mode only works if you have `1 << 15` as `flags` in your message data.
-
+For more information, visit [the Discord Developer Documentation page](https://discord.com/developers/docs/components/reference)
 <hr>
 
 ```js
