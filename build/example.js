@@ -5,7 +5,7 @@ const {
     Container, Section,
     TextDisplay, MediaGallery, MediaGalleryItem, Button, Thumbnail,
     Separator
-} = require("../src/index");
+} = require("./types");
 const axios = require("axios");
 
 
