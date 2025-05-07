@@ -35,9 +35,15 @@ doRequest("https://discord.com/api/v10/channels/1173457060332060752/messages", "
             // You can add a separator between sections
             new Separator(), 
             // You can have multiple sections in a container
-            new Section().addComponents(new TextDisplay().setContent("This is the first section"), new TextDisplay().setContent("You can use emojis like 💸👍❤"), new TextDisplay().setContent("But also markdown like **bold** or *italic*\nEven [links](https://google.com)\nThough, the max items for a Section is 3")).setAccessory(
-            // You can add an image as an accessory
-            new Thumbnail().setMedia({ url: "https://cdn.discordapp.com/avatars/723553355753848832/19183e9b8b7ac05c62f8847e1a1260a5.png?size=512" })), new Separator(), 
+            new Section().addComponents(
+                new TextDisplay().setContent("This is the first section"),
+                new TextDisplay().setContent("You can use emojis like 💸👍❤"),
+                new TextDisplay().setContent("But also markdown like **bold** or *italic*\nEven [links](https://google.com)\nThough, the max items for a Section is 3")
+            ).setAccessory(
+                // You can add an image as an accessory
+                new Thumbnail().setMedia({ url: "https://cdn.discordapp.com/avatars/723553355753848832/19183e9b8b7ac05c62f8847e1a1260a5.png?size=512" })
+            ),
+            new Separator(), 
             // Maybe have a media gallery instead of a section?
             new MediaGallery().addItems(
                 new MediaGalleryItem().setURL("https://cdn.discordapp.com/avatars/723553355753848832/19183e9b8b7ac05c62f8847e1a1260a5.png?size=512"),
