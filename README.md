@@ -42,3 +42,6 @@ components: [
 ```
 
 ![example](./src/example.png)
+
+# Webhooks
+This would work for webhooks aswell, make sure to include the `flags` (`1 << 15`), and make sure to **NOT** include any interactive components (**Button**, **Selects**, etc).
