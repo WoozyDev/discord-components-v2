@@ -1,7 +1,6 @@
 # Discord Components v2
 Since March of 2025, Discord has added a new way of using components in messages!<br>
 This mode only works if you have `1 << 15` as `flags` in your message data.
-<br>
 <hr>
 ```js
 flags: 1 << 15,
@@ -39,5 +38,4 @@ components: [
     .setSpoiler(false /* You can also mark the containers as spoilers */).build(),
 ]
 ```
-<br>
-[!example](src/example.png)
+![example](src/example.png)
